@@ -1,6 +1,6 @@
 # Getting-and-Cleaning-data
 In this project, I used Samsung data to create independent tidy data set with the average of each mean and standard deviation of each measurement, for each activity and each subject.
-The whole job will be done with one R script. [run_analysis.R](https://github.com/gsheasha/Getting-and-Cleaning-data/blob/master/I.-Reading-the-data-files-setwd-E/Courses-taken/specialization/Getting-and-cleanining-data/run_analysis.R)
+The whole job will be done with one R script. [run_analysis.R](https://github.com/gsheasha/Getting-and-Cleaning-data/blob/master/run_analysis.R)
 The steps were as follows:
 ###I. Reading the data files
 I assumed that all the individual files are present in your working directory.
