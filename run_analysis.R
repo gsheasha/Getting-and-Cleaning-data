@@ -44,5 +44,6 @@ all$subject=as.factor(all$subject)##convert the class of subject into factor
 library(dplyr)
 ALL=all %>%
 group_by(subject,activity) %>%
-summarise_each(funs(mean))## Build the tidy data file
+summarise_each(funs(mean)) %>%
+ungroup()## Build the tidy data file
 write.table(ALL,"tidydata.txt",row.name=F)## write it in .txt formate
