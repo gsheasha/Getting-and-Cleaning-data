@@ -10,6 +10,7 @@ We bind the data sets so that
 * The first variable refers to the subject.
 * The second one refers to the activities.
 * The remaining columns refer to the variables measured.
+
 Three steps of code are used to merge all the datasets
 ###1. Mering all the train datasets using *cbnind()*
 ###2. Merging all the test datasets using *cbind()*
