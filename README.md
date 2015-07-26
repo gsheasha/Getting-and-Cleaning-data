@@ -49,4 +49,4 @@ This is done in two steps
 1. Using *dplyr::group_by()* and *dplyr::summarize_each(funs(mean))*, the dataset"ALL" was developed.
 2. Using *write.table()", "ALL" were stored in "tidydata.txt" formate
 
-Then the I write down the [codebook](Getting-and-Cleaning-data/codebook) for the "tidydata.txt"
+Then the I write down the [codebook](https://github.com/gsheasha/Getting-and-Cleaning-data/blob/master/codebook) for the "tidydata.txt"
